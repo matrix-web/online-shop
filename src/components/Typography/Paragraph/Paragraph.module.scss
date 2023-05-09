@@ -1,0 +1,11 @@
+.paragraph {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  color: var(--color-text-primary);
+
+  &.is-uppercase {
+    text-transform: uppercase;
+  }
+}

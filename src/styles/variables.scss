@@ -1,0 +1,79 @@
+:root {
+  // primary
+  --color-primary: #696CFF;
+  --color-primary-light: #8082FF;
+  --color-primary-dark: #6062E8;
+  --color-primary-hover: #5456CC;
+  --color-primary-outline-hover: rgba(102, 108, 255, 0.05);
+  --color-primary-resting: rgba(102, 108, 255, 0.5);
+
+  // secondary
+  --color-secondary: #8592A3;
+  --color-secondary-light: #97A2B1;
+  --color-secondary-dark: #646E7A;
+  --color-secondary-hover: #596274;
+  --color-secondary-outline: rgba(109, 120, 141, 0.05);
+  --color-secondary-resting: rgba(109, 120, 141, 0.5);
+
+  // info
+  --color-info: #03C3EC;
+  --color-info-light: #40CDFA;
+  --color-info-dark: #21AEDB;
+  --color-info-hover: #21AEDB;
+  --color-info-outline: rgba(38, 198, 249, 0.05);
+  --color-info-resting: rgba(38, 198, 249, 0.5);
+
+  // success
+  --color-success: #71DD37;
+  --color-success-light: #86E255;
+  --color-success-dark: #67C932;
+  --color-success-hover: #55A629;
+  --color-success-outline: rgba(114, 225, 40, 0.05);
+  --color-success-resting: rgba(114, 225, 40, 0.5);
+
+  // warning
+  --color-warning: #FFAB00;
+  --color-warning-light: #FFB826;
+  --color-warning-dark: #E89C00;
+  --color-warning-hover: #BF8000;
+  --color-warning-outline: rgba(253, 181, 40, 0.05);
+  --color-warning-resting: rgba(253, 181, 40, 0.5);
+
+  // error
+  --color-error: #FF3E1D;
+  --color-error-light: #FF5B3F;
+  --color-error-dark: #E8381A;
+  --color-error-hover: #BF2F16;
+  --color-error-outline: rgba(255, 77, 73, 0.05);
+  --color-error-resting: rgba(255, 77, 73, 0.5);
+
+  // text
+  --color-text-primary: rgba(50, 71, 92, 0.87);
+  --color-text-secondary: rgba(50, 71, 92, 0.6);
+  --color-text-disabled: rgba(50, 71, 92, 0.38);
+
+  // action
+  --color-action-active: rgba(50, 71, 92, 0.54);
+  --color-action-hover: rgba(50, 71, 92, 0.04);
+  --color-action-selected: rgba(50, 71, 92, 0.08);
+  --color-action-disabled: rgba(50, 71, 92, 0.26);
+  --color-action-disabled-bg: rgba(50, 71, 92, 0.12);
+  --color-action-focus: rgba(76, 78, 100, 0.12);
+
+  --color-devider: rgba(50, 71, 92, 0.12);
+  --color-outline-border: rgba(50, 71, 92, 0.22);
+  --color-input-line: rgba(50, 71, 92, 0.22);
+  --color-overlay: rgba(50, 71, 92, 0.5);
+  --color-snackbar-bg: #212121;
+  --color-body-bg: #F5F5F9;
+  --color-paper-card: #FFFFFF;
+
+  --color-custom-bg-primary: rgba(102, 108, 255, 0.12);
+  --color-custom-bg-secondary: rgba(109, 120, 141, 0.12);
+  --color-custom-bg-info: rgba(38, 198, 249, 0.12);
+  --color-custom-bg-success:  rgba(114, 225, 40, 0.12);
+  --color-custom-bg-warning: rgba(253, 181, 40, 0.12);
+  --color-custom-bg-error: rgba(255, 77, 73, 0.12);
+
+  --color-menu-active: #666CFF
+}

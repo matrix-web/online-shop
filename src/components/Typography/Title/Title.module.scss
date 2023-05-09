@@ -1,0 +1,37 @@
+@mixin fontSize($size, $lineHeight) {
+  font-size: $size;
+  line-height: $lineHeight;
+}
+
+.title {
+  font-style: normal;
+  color: var(--color-text-primary);
+
+  &.h1 {
+    @include fontSize(96px, 112px);
+  }
+
+  &.h2 {
+    @include fontSize(60px, 72px);
+  }
+
+  &.h3 {
+    @include fontSize(48px, 56px);
+  }
+
+  &.h4 {
+    @include fontSize(34px, 40px);
+  }
+
+  &.h5 {
+    @include fontSize(24px, 32px);
+  }
+
+  &.h6 {
+    @include fontSize(20px, 32px);
+  }
+
+  &.is-uppercase {
+    text-transform: uppercase;
+  }
+}
